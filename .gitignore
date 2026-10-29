@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.local
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Node / Next
+node_modules/
+.next/
+next-env.d.ts
+.vercel/
+*.tsbuildinfo
+
+# Playwright
+/test-results/
+/playwright-report/
+
+# Agent worktrees of this repo
+.claude/worktrees/

@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc", "react", "jsx-a11y", "import"],
+  "ignorePatterns": [
+    "out/",
+    "build/",
+    "dist/",
+    "node_modules/",
+    ".next/",
+    "next-env.d.ts",
+    ".claude/"
+  ],
+  "categories": {
+    "correctness": "error"
+  },
+  "rules": {
+    "typescript/no-explicit-any": "warn",
+    "no-nested-ternary": "warn",
+    "eqeqeq": "error"
+  }
+}
